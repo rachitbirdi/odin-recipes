@@ -2,7 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Oyakodon</title>
+        <link rel="stylesheet" href="../styles.css">
     </head>
 
     <body>
@@ -13,7 +15,7 @@
         <p>Oyakodon is a delicious traditional Japanese meal consisting of chicken sautéed and then cooked in a Japanese broth, and then finished with egg and served over rice. It's really easy, filling, and delicious.</p>
 
         <h2>Ingredients</h2>
-        <ul>
+        <ul class="ingredients-list">
             <li>1 tablespoon olive oil</li>
             <li>4 skinless, boneless chicken thighs, cut into small pieces</li>
             <li>1 onion, cut in half and sliced</li>
@@ -26,11 +28,15 @@
         </ul>
 
         <h2>Steps</h2>
-        <ol>
+        <ol class="steps-list">
             <li>Heat oil in a large skillet over medium heat. Add chicken and cook until beginning to brown, about 5 minutes. Add onion; cook and stir until onion is translucent, about 5 minutes.</li>
             <li>Pour in stock, then whisk in soy sauce, mirin, and brown sugar; stir until sugar dissolves. Bring to a boil, then lower heat and simmer until slightly reduced, about 10 minutes.</li>
             <li>Whisk eggs in a bowl until well-beaten, then pour into the hot stock mixture. Cover the skillet, reduce the heat, and steam until egg is cooked, about 5 minutes. Remove from the heat.</li>
             <li>Divide rice among 4 deep soup bowls and top with equal amounts of the soup mixture.</li>
         </ol>
+
+        <button class="home" type="button" onclick="window.location.href='../index.html';">Return Home</button>
+        <a href="./sandwich.html"><button class="button" type="button">Previous</button></a>
+        <a href="./pasta.html"><button class="button" type="button">Next</button></a>
     </body>
 </html>
