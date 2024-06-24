@@ -9,13 +9,30 @@ body{
 h1{
     text-align: center;
     color: black;
+    border: 10px ridge black;
+    width: 400px;
+    margin: auto;
 }
 
 /* index.html */
 
+.welcome{
+    font-weight: bold;
+    margin: 33px 33px 0 33px;
+    border: 5px ridge black; 
+    padding: 10px;
+}
+
+.container{
+    text-align: center;
+}
+
 .list{
     font-size: 20px;
     font-weight: bold;
+    display: inline-block;
+    padding-right: 40px;
+    text-align: center;
 }
 
 .chick-img,
@@ -24,6 +41,13 @@ h1{
 {
     height: auto;
     width: 300px;
+    display: block;
+}
+
+.recipe-li{
+    padding: 20px;
+    border: 5px ridge black;
+    margin: 10px;
 }
 
 /* all recipe pages */
